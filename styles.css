@@ -30,6 +30,11 @@ header p {
   margin-top: 0.5rem;
 }
 
+header h1 {
+    font-family: "Marcellus", serif;
+    font-style: normal;
+}
+
 section {
     margin-bottom: 64px;
 }
@@ -55,6 +60,7 @@ p {
 }
 
 h2 {
+    font-family: "Marcellus", serif;
     font-size: 1.5rem;
     color: #81a1c1;
     margin-bottom: 1rem;
