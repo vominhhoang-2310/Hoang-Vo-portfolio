@@ -110,8 +110,11 @@
 
   <footer>
     <div class="container">
-      &copy; <?= date("Y") ?> Hoang Vo. All rights reserved.
+      &copy; <span id="year"></span> Hoang Vo. All rights reserved.
     </div>
   </footer>
+  <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
