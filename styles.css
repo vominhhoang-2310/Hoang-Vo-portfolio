@@ -85,6 +85,10 @@ h3 {
     box-shadow: 0 0 5px #333;
 }
 
+.project-card ul {
+    margin-top: 10px;
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -117,7 +121,7 @@ button {
 footer {
     background: #1a1d26;
     text-align: center;
-    padding: 1.5rem 0;
+    padding: 10px;
     font-size: 0.9rem;
     color: #888;
     border-top: 2px solid #2e3440;
