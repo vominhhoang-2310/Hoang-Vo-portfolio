@@ -126,4 +126,12 @@ document.addEventListener('DOMContentLoaded', function () {
       closeAllCards();
     }
   });
+
+  document.querySelectorAll('.btn-resume').forEach(function (button) {
+    button.addEventListener('click', function () {
+      requestAnimationFrame(function () {
+        button.blur();
+      });
+    });
+  });
 });
