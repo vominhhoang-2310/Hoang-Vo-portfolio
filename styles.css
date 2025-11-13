@@ -395,21 +395,8 @@ p {
 }
 
 .entry-content p {
-    text-align: justify;
     font-size: 1.05rem;
     line-height: 1.6;
-}
-
-@media (max-width: 900px) {
-    .timeline-layout {
-        grid-template-columns: 1fr;
-        gap: 2.5rem;
-    }
-
-    .timeline-entry {
-        grid-template-columns: 130px minmax(0, 1fr);
-        gap: 1.75rem;
-    }
 }
 
 @media (max-width: 720px) {
@@ -827,6 +814,20 @@ body.page-loaded .fade-up {
 
     .project-carousel {
         padding: 0;
+    }
+
+    .timeline-title-block {
+        text-align: center;
+    }
+
+    .timeline-layout {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+    }
+
+    .timeline-entry {
+        grid-template-columns: 130px minmax(0, 1fr);
+        gap: 1.75rem;
     }
 }
 
